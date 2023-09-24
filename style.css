@@ -23,7 +23,7 @@ h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
 p { font-size: 100%; line-height: 18px; padding-right: 3em; }
-a { color: #990003 }
+a { color: #a5171c }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
 li { line-height: 24px; border-bottom: 1px solid #ccc; }
@@ -37,7 +37,7 @@ p.enlarge span { color: #000 }
 /* //-- section styles -- */
 
 a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
-a#pdf:hover { background: #222; }
+a#pdf:hover { background: #373737; }
 
 .job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
 .job h4 { position: absolute; top: 0.35em; right: 0 }
