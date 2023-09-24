@@ -1,3 +1,4 @@
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -218,11 +219,6 @@
 .bootstrap-switch-on .bootstrap-switch-handle-off {
   opacity: 0; }
 
-/*! nouislider - 9.1.0 - 2016-12-10 16:00:32 */
-/* Functional styling;
- * These styles are required for noUiSlider to function.
- * You don't need to change these rules to apply your design.
- */
 .noUi-target,
 .noUi-target * {
   -webkit-touch-callout: none;
@@ -268,15 +264,10 @@
 .noUi-state-drag * {
   cursor: inherit !important; }
 
-/* Painting and performance;
- * Browsers can paint handles in their own layer.
- */
 .noUi-base,
 .noUi-handle {
   transform: translate3d(0, 0, 0); }
 
-/* Slider size and handle placement;
- */
 .noUi-horizontal {
   height: 1px; }
 
@@ -299,8 +290,6 @@
   left: -6px;
   top: -17px; }
 
-/* Styling;
- */
 .noUi-target {
   background-color: rgba(182, 182, 182, 0.3);
   border-radius: 3px; }
@@ -310,8 +299,6 @@
   border-radius: 3px;
   transition: background 450ms; }
 
-/* Handles and cursors;
- */
 .noUi-draggable {
   cursor: ew-resize; }
 
@@ -332,8 +319,6 @@
 .noUi-active {
   transform: scale3d(1.5, 1.5, 1); }
 
-/* Disabled state;
- */
 [disabled] .noUi-connect {
   background: #B8B8B8; }
 
@@ -342,9 +327,6 @@
 [disabled] .noUi-handle {
   cursor: not-allowed; }
 
-/* Base;
- *
- */
 .noUi-pips,
 .noUi-pips * {
   box-sizing: border-box; }
@@ -353,9 +335,6 @@
   position: absolute;
   color: #999; }
 
-/* Values;
- *
- */
 .noUi-value {
   position: absolute;
   text-align: center; }
@@ -364,9 +343,6 @@
   color: #ccc;
   font-size: 10px; }
 
-/* Markings;
- *
- */
 .noUi-marker {
   position: absolute;
   background: #CCC; }
@@ -377,9 +353,6 @@
 .noUi-marker-large {
   background: #AAA; }
 
-/* Horizontal layout;
- *
- */
 .noUi-pips-horizontal {
   padding: 10px 0;
   height: 80px;
@@ -401,9 +374,6 @@
 .noUi-marker-horizontal.noUi-marker-large {
   height: 15px; }
 
-/* Vertical layout;
- *
- */
 .noUi-pips-vertical {
   padding: 0 10px;
   height: 100%;
@@ -499,11 +469,6 @@
 .slider.slider-danger .noUi-handle {
   background-color: #FF3636; }
 
-/*!
- * Datepicker for Bootstrap v1.7.0-dev (https://github.com/uxsolutions/bootstrap-datepicker)
- *
- * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
- */
 .datepicker {
   padding: 8px 6px;
   border-radius: 4px;
@@ -2303,7 +2268,6 @@ body {
   position: relative;
   background: #FFFFFF; }
 
-/* Animations */
 .nav-pills .nav-link,
 .nav-item .nav-link,
 .navbar,
@@ -2876,13 +2840,6 @@ img {
   color: inherit;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2); }
 
-/* --------------------------------
-
-Nucleo Outline Web Font - nucleoapp.com/
-License - nucleoapp.com/license/
-Created using IcoMoon - icomoon.io
-
--------------------------------- */
 @font-face {
   font-family: 'Nucleo Outline';
   src: url("../fonts/nucleo-outline.eot");
@@ -2890,25 +2847,15 @@ Created using IcoMoon - icomoon.io
   font-weight: normal;
   font-style: normal; }
 
-/*------------------------
-	base class definition
--------------------------*/
 .now-ui-icons {
   display: inline-block;
   font: normal normal normal 14px/1 'Nucleo Outline';
   font-size: inherit;
   speak: none;
   text-transform: none;
-  /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/*------------------------
-  change icon size
--------------------------*/
-/*----------------------------------
-  add a square/circle background
------------------------------------*/
 .now-ui-icons.circle {
   padding: 0.33333333em;
   vertical-align: -16%;
@@ -2917,9 +2864,6 @@ Created using IcoMoon - icomoon.io
 .now-ui-icons.circle {
   border-radius: 50%; }
 
-/*------------------------
-  list icons
--------------------------*/
 .nc-icon-ul {
   padding-left: 0;
   margin-left: 2.14285714em;
@@ -2938,9 +2882,6 @@ Created using IcoMoon - icomoon.io
   top: -0.19047619em;
   left: -1.9047619em; }
 
-/*------------------------
-  spinning icons
--------------------------*/
 .now-ui-icons.spin {
   -webkit-animation: nc-icon-spin 2s infinite linear;
   animation: nc-icon-spin 2s infinite linear; }
@@ -2957,12 +2898,6 @@ Created using IcoMoon - icomoon.io
   100% {
     transform: rotate(360deg); } }
 
-/*------------------------
-  rotated/flipped icons
--------------------------*/
-/*------------------------
-	font icons
--------------------------*/
 .now-ui-icons.ui-1_check:before {
   content: "\ea22"; }
 
@@ -3292,7 +3227,6 @@ Created using IcoMoon - icomoon.io
     padding-right: 24px;
     padding-bottom: 16px;
     padding-left: 24px;
-    /* Safari 6.1+ */
     justify-content: space-between; }
     .modal-content .modal-footer button {
       margin: 0;
@@ -3618,12 +3552,8 @@ Created using IcoMoon - icomoon.io
 
 .section-full-page[filter-color="purple"]:after, .section-full-page[filter-color="primary"]:after {
   background: rgba(227, 227, 227, 0.26);
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
   background: linear-gradient(0deg, rgba(227, 227, 227, 0.26), rgba(55, 140, 63, 0.95));
-  /* Standard syntax */ }
+  }
 
 .section-full-page[data-image]:after {
   opacity: .5; }
@@ -3813,12 +3743,8 @@ Created using IcoMoon - icomoon.io
     background-color: rgba(0, 0, 0, 0.5); }
   .page-header[filter-color="orange"] {
     background: rgba(44, 44, 44, 0.2);
-    /* For browsers that do not support gradients */
-    /* For Safari 5.1 to 6.0 */
-    /* For Opera 11.1 to 12.0 */
-    /* For Firefox 3.6 to 15 */
     background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-    /* Standard syntax */ }
+   }
   .page-header .container {
     z-index: 2; }
 
@@ -4107,12 +4033,7 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .sidebar-collapse .navbar-collapse:before {
       background: #378C3F;
-      /* For browsers that do not support gradients */
-      /* For Safari 5.1 to 6.0 */
-      /* For Opera 11.1 to 12.0 */
-      /* For Firefox 3.6 to 15 */
       background: linear-gradient(#378C3F 0%, #000 80%);
-      /* Standard syntax (must be last) */
       opacity: 0.76;
       filter: alpha(opacity=76);
       display: block;
@@ -4590,12 +4511,7 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .burger-menu .navbar-collapse:before {
       background: #378C3F;
-      /* For browsers that do not support gradients */
-      /* For Safari 5.1 to 6.0 */
-      /* For Opera 11.1 to 12.0 */
-      /* For Firefox 3.6 to 15 */
       background: linear-gradient(#378C3F 0%, #000 80%);
-      /* Standard syntax (must be last) */
       opacity: 0.76;
       filter: alpha(opacity=76);
       display: block;
@@ -5083,26 +4999,17 @@ Created using IcoMoon - icomoon.io
 .gallery figure.cc-effect:hover img {
   transition-delay: 0.15s; }
 
-/* Header */
-/* Navbar style*/
 .navbar {
   font-size: 18px;
   letter-spacing: 1px; }
 
-/* Body */
-/* Profile Page Background Style */
 .page-header {
   background: rgba(44, 44, 44, 0.2);
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
-  /* Standard syntax */ }
+ }
   .page-header .btn {
     width: 140px; }
 
-/* Profile Image Style */
 @-webkit-keyframes pulsate {
   0% {
     transform: scale(0.6, 0.6);
@@ -5158,11 +5065,9 @@ Created using IcoMoon - icomoon.io
   -webkit-animation: none;
           animation: none; }
 
-/* Profile Page Social button Style */
 .button-container .btn-default {
   margin-right: 8px; }
 
-/* Professional Skills Style */
 .progress-container {
   margin-bottom: 20px;
   font-size: 18px; }
@@ -5177,7 +5082,6 @@ Created using IcoMoon - icomoon.io
   .progress-container .aos-animate {
     transform: scaleX(1); }
 
-/* Experience Style */
 .cc-experience .cc-experience-header {
   padding-top: 60px;
   padding-right: 0;
@@ -5185,7 +5089,6 @@ Created using IcoMoon - icomoon.io
   color: #fff;
   text-transform: uppercase; }
 
-/* Education Style */
 .cc-education .h5 {
   margin-bottom: 0; }
 
@@ -5195,7 +5098,6 @@ Created using IcoMoon - icomoon.io
   text-align: center;
   color: #fff; }
 
-/* References Style */
 .cc-reference .card {
   padding: 40px; }
 
@@ -5223,7 +5125,6 @@ Created using IcoMoon - icomoon.io
   .cc-reference ol {
     margin-bottom: 0; } }
 
-/* Contact Information Style */
 .cc-contact-information {
   width: 100%;
   position: relative;
@@ -5234,8 +5135,6 @@ Created using IcoMoon - icomoon.io
       .cc-contact-information .cc-contact {
         padding: 30px 0px 30px 0px; } }
 
-/* Footer */
-/* Social button style */
 .cc-facebook:hover i {
   color: #3b5998; }
 
